@@ -1,3 +1,4 @@
+//EXPERIMENT 7: OVERLOADED CONSTRUCTOR
 #include <iostream>
 using namespace std;
 
@@ -8,16 +9,16 @@ private:
     int size = 0;
 
 public:
-    element()
+    element()                                           //Default constructor
     {
         cout << "Default constructor for overloading ";
     }
-    element(int size)
+    element(int size)                                   //Constructor overloaded with parameterising
     {
         this->size = size;
         arr = new int[size];
     }
-    void getdata()
+    void getdata()                                      //Initialising data
     {
         for (int i = 0; i < size; i++)
         {
@@ -25,7 +26,7 @@ public:
             cin >> arr[i];
         }
     }
-    void largest()
+    void largest()                                      //Function to find largest
     {
         int max = 0;
         for (int i = 0; i < size; i++)

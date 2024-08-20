@@ -1,13 +1,14 @@
+//EXPERIMENT 8: BANK DEPOSIT AND WITHDRAW
 #include <iostream>
 using namespace std;
 
 class bank{
     float money;
     public:
-    bank(float money){
+    bank(float money){                               //Constructor with money input
         this->money = money;
     }
-    void deposit(){
+    void deposit(){                                  //Function for depositing money
         int d;
         cout<<"Money in account : "<<money<<endl;
         cout<<"Enter the amount to deposit : ";
@@ -15,12 +16,12 @@ class bank{
         money = money + d;
         cout<<"Money in account after depositing : "<<money<<endl;
     }
-    void dwithdraw(){
+    void dwithdraw(){                                //Function for withdrawing money
         int w;
         cout<<"Money in account : "<<money<<endl;
         cout<<"Enter the amount to withdraw : ";
         cin>>w;
-        if(w>money){
+        if(w>money){                                 //Check condition
             cout<<"Insufficient balance"<<endl;
         }
         else{

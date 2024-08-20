@@ -1,0 +1,12 @@
+Experiment 5: WAP o add and substract two fractions. Let the add() accept the objects using call-by-value 
+technique, subtract() using call-by-reference, and multiply() accept using the call-by-address technique.
+
+
+Experiment 6: WAP that displays the name of topper in a class.
+
+
+Experiment 7: WAP that uses an overloaded constructor to dynamically allocate memory to an array and thus find 
+the largest of its elements.
+
+
+Experiment 8: Write class and object based program to deposit or withdraw money in a bank account.

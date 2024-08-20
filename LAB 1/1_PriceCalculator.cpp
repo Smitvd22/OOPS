@@ -1,4 +1,3 @@
-float PriceCalculator()
 //EXPERIMENT 1 : CALCULATING LETTER PRICE
 #include <iostream>
 #include <bits/stdc++.h>

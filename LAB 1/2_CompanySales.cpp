@@ -15,11 +15,11 @@ struct Company {
 
 int main(){
     Company l;
-    cout<<"Enter the number of miners : ";
+    cout<<"Enter the number of miners : ";                        //Takes input of miners
     cin >> l.m;
-    cout<<"Enter the number of toasters : ";
+    cout<<"Enter the number of toasters : ";                      //Takes input of toasters
     cin >> l.n;
-    cout<<"Enter the number of fans : ";
+    cout<<"Enter the number of fans : ";                          //Takes input of fans
     cin >> l.p;
     cout<<"The price to be paid is: "<<l.Calculator();            //Displays the final price
 }

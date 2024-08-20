@@ -1,0 +1,45 @@
+Experiment 1. Suppose the postal rates for mailing letters are as follows:
+ Rs. 0.50 per 10 grams for the first 50 grams,
+ Rs. 0.40 per 10 grams for the next 100 grams,
+ Rs. 0.25 per 10 grams for the next 250 grams, and
+ Rs 25 per kilogram for letters weighing more than 400 grams.
+Write a program that prompts for the weight of a letter and prints the postage to be 
+ paid.
+
+
+Experiment 2. A department store places an order with a company for n pieces of miners, m pieces of 
+toasters, and P number of fans. The cost of each item is as follows:
+ Miners: Rs. 1,500 per piece
+ Toaster: Rs. 200 per piece
+ Fan: Rs. 450 per piece
+The discount allowed for various items are 5% for miners, 15% for fan, and 10% for toaster.
+The company charge 10% as sales tax on all items on net value after deducting the discount.
+Write a program that reads m, n, and p and computer the amount to be paid by the store.
+
+
+Experiment 3: Assume that a publishing company markets prints books and digital books (electronic form –
+CD’). Create a structure named Publication with data members named title, price, and author’s name. From 
+the Publication structure, derive two structures named Book and Ebook. The Book structure adds a page 
+count data member named count, while the Ebook adds data member playing time name time. Each of these 
+structures must have a member function getDatd() to read structure-specific data from the keyboard and 
+display data () to output the structure-specific data to the computer screen. Write a program to test these 
+classes.
+
+
+Experiment 4: The monthly telephone bill is to be computed as follows:
+ Minimum Rs. 200 for up to 100 calls
+ Plus Rs. 0.60 per call for next 50 calls
+ Plus Rs. 0.50 per call for next 50 calls
+ Plus Rs. 0.40 per call for any call beyond 200 calls.
+The input contains the name of the customer and the number of calls made, and the desired output is the 
+name and telephone bill to be paid by the customer.
+Create a class to represent an employee. It should include the following:
+ Data Members:
+ Name 
+ Number of calls
+ Bill amount
+ Member Functions:
+ To input data
+ To compute bill
+ To output the desired information
+Using this structure, write a program to accomplish the intended task

@@ -1,3 +1,4 @@
+//EXPERIMENT 2: DUE DATE CALCULATOR
 #include <iostream>
 using namespace std;
 
@@ -9,12 +10,12 @@ public:
     int year;
 };
 
-bool isLeapYear(int year)
+bool isLeapYear(int year)                                            //Checks if leap year or not
 {
-    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);  //Leap year condition
 }
 
-int daysInMonth(int month, int year)
+int daysInMonth(int month, int year)                                 //Number of days in month
 {
     int days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     if (month == 2 && isLeapYear(year))
@@ -22,11 +23,11 @@ int daysInMonth(int month, int year)
     return days[month - 1];
 }
 
-Date addDays(Date date, int days)
+Date addDays(Date date, int days)                                    //Main function to calculate date
 {
     while (days > 0)
     {
-        int daysInCurrentMonth = daysInMonth(date.month, date.year);
+        int daysInCurrentMonth = daysInMonth(date.month, date.year);  //Converts years and months in days
         if (date.day + days > daysInCurrentMonth)
         {
             days -= (daysInCurrentMonth - date.day + 1);

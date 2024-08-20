@@ -1,3 +1,4 @@
+//EXPERIMENT 6: TOPPER MARKS CALCULATOR
 #include<iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ class ai {
     int* marks;
     int students;
 public:
-    void getdata() {
+    void getdata() {                                //Function to get data of student
         cout << "Enter number of students: ";
         cin >> students;
         roll = new int[students];
@@ -16,7 +17,7 @@ public:
             cin >> roll[i] >> marks[i];
         }
     }
-    void topper() {
+    void topper() {                                 //Function to tell about topper
         int max = 0;
         int rollno = 0;
         for (int i = 0; i < students; i++) {

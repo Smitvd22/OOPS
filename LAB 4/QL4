@@ -1,0 +1,67 @@
+Experiment 1:
+An employer plane to pay a bonus to employees. A bonus of 10% is to be paid to employees with earning 
+at least Rs. 2000/- of the earning to others. The input contains name and earning of an employee and the 
+desired output is name and bonus to be paid to the employee.
+Create a class to represent an employee. It should incluse the following:
+ Data Members:
+ Name
+ Earning
+ Bonus
+ Member Functions:
+ To input data
+ To compute bonus
+ To output the desired information
+Using this class, write a program to accomplish the intended task.
+
+
+Experiment 2. The monthly telephone bill is to be computed as follows:
+ Minimum Rs. 200 for upto 100 calls
+ Plus Rs. 0.60 per call for next 50 calls
+ Plus Rs. 0.50 per call for next 50 calls
+ Plus Rs. 0.40 per call for any call beyond 200 calls.
+The input contains name of the customer and number of calls made and the desired output is the name 
+and telephone bill to be paid by the customer.
+Create a class to represent an employee. It should include the following:
+ Data Members:
+ Name 
+ Number of calls
+ Bill amount
+ Member Functions:
+ To input data
+ To compute bill
+ To output the desired information
+Using this class, write a program to accomplish the intended task
+
+
+Experiment 3. Income tax for individuals is computed on slab rates as follows:
+Income Tax Payable
+Upto Rs. 1,00,000/- Nill
+From Rs. 1,00,001/- to Rs. 1,50,000/- 10% of the excess over Rs. 1,00,000/-
+From Rs. 1,51,001/- to Rs. 200,000/- 20% of the excess over Rs. 1,50,000/-
+Above Rs. 2,00,000/- 30% of the excess over Rs. 2,00,000/-
+The input contains name of the individual and income and the desired output is the name of the 
+individual and amount of tax to be paid by the individual.
+Create a class to represent an employee. It include the following:
+ Data Members:
+ Name
+ Income
+ Tax due
+ Member Functions:
+ To input data
+ To compute tax
+ To output the desired information
+Using this class, write a program to accomplish the intended task.
+
+
+Experiment 4. Create a class to represent a bank account. It should include the following:
+ Data Members:
+ Name of account holder
+ Account number
+ Type of account
+ Balance amount
+ Member Function:
+ To initialize the data members with appropriate data
+ To deposit an amount
+To withdraw an amount after checking the balance
+To display details of account holder
+Write a program to use this class
