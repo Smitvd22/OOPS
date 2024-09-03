@@ -1,0 +1,22 @@
+Experiment 9: Create a record of 10 employee which contains following information: emp_id., 
+emp_name, and age. Create a C++ (OOPs concept) program to search an employee with its emp_id.
+
+
+Experiment 10: (friend function with inline function, friend function with another class)
+Implement Two Class name is class_2,class_1 define one function name is exchange this function work in 
+both class properties. friend function can be called by reference in this case copies of the object are not 
+made. Instead a pointer to the address of the object is passed 
+
+
+Experiment 11: (Dynamic memory allocation with new, delete, and destructor)
+A Program to allocate contiguous memory for an array using the new operator and the object of the array 
+is destroyed by the delete operator.
+
+
+Experiment 12: (Operator Overloading)
+Design a class named vector to model a one-dimensional array with integer elements.
+Overload the followimg operators to perform the intended task:
+(i) Operator ‘<<’ to output a vector object.
+(ii) Operator ‘>>’ to input a vector object in the form [10, 20, 30, . . .].
+(iii) Operator ‘+’ to add two vector objects.
+(iv) Operator ‘-‘ to subtract a given vector object from another vector object.
