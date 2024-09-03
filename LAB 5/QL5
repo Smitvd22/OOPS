@@ -1,0 +1,18 @@
+Experiment 5: Assume that a publishing company markets prints books and digital books (electronic 
+form – CD’). Create a class named Publication with data members named title, price, and author’s name. 
+From Publication class, derive two classes named Book and Ebook. The Book class adds a page count data 
+member named pcount while Ebook adds data member playing time name ptime. Each of these classes 
+must have member function getDatd() to read class specific data from keyboard and displayData() to 
+output the class specific data to the computer screen. Write a program to test these classes.
+
+
+Experiment 6: Write a program to find mean of two numbers belonging to two different classes using 
+friend function.
+
+
+Experiment 7: Write C++ program to calculate area of a cuboid. Convert the cuboid into a cube using a 
+friend class.
+
+
+Experiment 8: Write a C++ Program to implement the arithmetic operations multiplication on complex 
+numbers using the concept of this pointer, inline functions and scope resolution operator.
